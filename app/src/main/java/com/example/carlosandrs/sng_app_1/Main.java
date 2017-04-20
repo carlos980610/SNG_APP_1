@@ -1,7 +1,7 @@
 package com.example.carlosandrs.sng_app_1;
 
-        import android.support.v7.app.AppCompatActivity;
-        import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 
 public class Main extends AppCompatActivity {
 
