@@ -15,6 +15,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Login" />
+        <activity android:name=".Intro" />
+        <activity android:name=".Register" />
+        <activity android:name=".Profile" />
+        <activity android:name=".Chat_List" />
+        <activity android:name=".Chat_In" />
+        <activity android:name=".Up_Publication"></activity>
     </application>
 
 </manifest>
