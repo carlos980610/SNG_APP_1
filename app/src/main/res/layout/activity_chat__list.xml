@@ -9,4 +9,9 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.carlosandrs.sng_app_1.Chat_List">
 
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>
