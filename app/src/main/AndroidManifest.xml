@@ -21,7 +21,7 @@
         <activity android:name=".Profile" />
         <activity android:name=".Chat_List" />
         <activity android:name=".Chat_In" />
-        <activity android:name=".Up_Publication"></activity>
+        <activity android:name=".Up_Publication" />
     </application>
 
 </manifest>
