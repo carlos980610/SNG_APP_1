@@ -32,7 +32,10 @@ public class Profile extends AppCompatActivity {
 
                 Toast.makeText(Profile.this, "" + position, Toast.LENGTH_SHORT)
                         .show();
-                
+                Intent i = new Intent(getApplicationContext(), SingleViewActivity.class);
+                // Pass image index
+                i.putExtra("id", position);
+                startActivity(i);
             }
         });
 

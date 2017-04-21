@@ -10,12 +10,13 @@
         <activity android:name=".Login" />
         <activity android:name=".Intro" />
         <activity android:name=".Register" />
-        <activity android:name=".Profile" >
+        <activity android:name=".Profile">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>/>
+            </intent-filter>
+            />
         </activity>
         <activity android:name=".Chat_List" />
         <activity android:name=".Chat_In" />
@@ -23,9 +24,8 @@
         <activity
             android:name=".Main"
             android:label="@string/title_activity_main"
-            android:theme="@style/AppTheme.NoActionBar">
-
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".SingleViewActivity"></activity>
     </application>
 
 </manifest>
