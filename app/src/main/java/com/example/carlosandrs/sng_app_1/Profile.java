@@ -30,8 +30,8 @@ public class Profile extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View v,
                                     int position, long id) {
 
-                Toast.makeText(Profile.this, "" + position, Toast.LENGTH_SHORT)
-                        .show();
+                /*Toast.makeText(Profile.this, "" + position, Toast.LENGTH_SHORT)
+                        .show();*/
                 Intent i = new Intent(getApplicationContext(), SingleViewActivity.class);
                 // Pass image index
                 i.putExtra("id", position);

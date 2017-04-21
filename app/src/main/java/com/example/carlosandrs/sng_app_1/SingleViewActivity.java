@@ -14,10 +14,8 @@ public class SingleViewActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_single_view);
 
-        // Get intent data
         Intent i = getIntent();
 
-        // Selected image id
         int position = i.getExtras().getInt("id");
         ImageAdapter imageAdapter = new ImageAdapter(this);
 
