@@ -30,7 +30,7 @@ public class Profile extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View v,
                                     int position, long id) {
 
-                Toast.makeText(Profile.this, "" + position+1, Toast.LENGTH_SHORT)
+                Toast.makeText(Profile.this, "" + position, Toast.LENGTH_SHORT)
                         .show();
                 
             }
